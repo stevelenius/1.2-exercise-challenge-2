@@ -5,10 +5,10 @@ function setup() {
 function draw() {
   if (mouseIsPressed) {
   	fill(255);
-  	circle(mouseX,mouseY, 80);
+  	circle(mouseX, mouseY, 80);
   } else {
   	fill(127);
-    square(mouseX,mouseY, 80);
+    square(mouseX, mouseY, 80);
 }
   
 }
